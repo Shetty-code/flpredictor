@@ -26,7 +26,8 @@ if st.button('predict'):
 
     if prediction == 0:
         st.success('the predicted class is setosa')
-    elif pred == 1:
+    elif prediction == 1:
             st.success('the predicted class is versicolor')
     else:
         st.success('the predicted class is vaginica')
+
